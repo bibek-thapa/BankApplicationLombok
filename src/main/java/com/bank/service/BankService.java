@@ -19,7 +19,7 @@ public class BankService {
 		return accounts;
 	}
 
-	//get account number of the specific id
+	//get account number of the specific ids
 	public Account getAccount(Integer id) {
 		Optional<Account> acct = accounts.stream().filter(acc -> acc.getAccountNumber().equals(id)).findFirst();
 		if (acct.isPresent())
