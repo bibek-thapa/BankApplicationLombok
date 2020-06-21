@@ -54,7 +54,7 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -- lombokl>
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok h -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
